@@ -1,0 +1,26 @@
+header {
+  .menu-icon {
+      margin-left: 5px;
+  }
+  button.icon-button:nth-child(1),
+  button.icon-button:nth-child(2) {
+      margin-right: 10px;
+  }
+  .icon-button>ion-icon {
+      color: white;
+  }
+  ion-header.header-ios {
+      min-height: 74px;
+      background: #0b3c5d;
+  }
+  ion-header {
+      border-bottom: 5px solid #ff9f06;
+  }
+  .cart-count {
+      background-color: #45a804;
+      border-radius: 10px;
+      padding: 0.4rem;
+      margin: 1.0rem 0 0 -1.2rem;
+      position: absolute;
+  }
+}

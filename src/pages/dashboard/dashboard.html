@@ -1,0 +1,43 @@
+<!--
+  Generated template for the DashboardPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<header></header>
+<ion-content class="cards-bg">
+<ion-grid>
+  <ion-row>
+      <ion-col col-1 class="homeHeaderLeftIcon" text-left>
+          <!-- <svg-icon src="assets/svg/home.svg"></svg-icon> -->
+      </ion-col>
+      <ion-col col-10 text-center text-uppercase color="lblack">
+          Municipality of Plymouth
+        </ion-col>
+        <ion-col col-1 class="homeHeaderIcon" text-right>
+        <!-- <svg-icon src="assets/svg/doublearrow.svg"></svg-icon> -->
+          </ion-col>
+
+  </ion-row>
+
+</ion-grid>
+
+<ion-card class="cards-list-demo" no-margin id={{collection}} *ngFor="let collection of collections">
+  <ion-card-header no-padding padding-left padding-top id={{collection}} >
+ {{collection.collectionName}}
+  </ion-card-header>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center *ngFor="let muncipality of collection.muncipalities" id={{muncipality.name}} (click)="gotoItemDetailsPage(muncipality.name,muncipality.logo)">
+        <ion-img [src]="muncipality.logo" width="40" height="40" id={{muncipality.name}}></ion-img>
+  <p> {{muncipality.name}}</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-card>
+
+</ion-content>
+<ion-footer>
+
+</ion-footer>

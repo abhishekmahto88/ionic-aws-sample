@@ -12,7 +12,7 @@ const logger = new Logger('Confirm');
   templateUrl: 'confirm.html'
 })
 export class ConfirmPage {
-  
+
   public code: string;
   public username: string;
 

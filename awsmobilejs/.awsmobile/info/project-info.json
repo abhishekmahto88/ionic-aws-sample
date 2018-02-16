@@ -1,0 +1,23 @@
+{
+	"ProjectName": "ezip",
+	"ProjectPath": "/data/workspace/aws/ezip",
+	"SourceDir": "src",
+	"DistributionDir": "dist",
+	"BuildCommand": "npm run-script build",
+	"StartCommand": "ionic serve",
+	"InitializationTime": "2018-02-15-12-19-50",
+	"LastConfigurationTime": "2018-02-15-12-20-07",
+	"LastNPMInstallTime": "2018-02-15-12-45-25",
+	"FrontendLastBuildTime": "2018-02-15-12-45-55",
+	"LastPublishTime": "",
+	"BackendFormat": "yml",
+	"BackendLastSyncTime": "2018-02-15-12-45-16",
+	"BackendLastBuildTime": "2018-02-15-12-44-51",
+	"BackendLastPushTime": "2018-02-15-12-44-59",
+	"BackendLastPushSuccessful": true,
+	"BackendProjectID": "c78c120d-121c-11e8-b983-1df4d428e0df",
+	"BackendProjectName": "ezip-2018-02-15-12-22-10",
+	"BackendProjectConsoleUrl": "https://console.aws.amazon.com/mobilehub/home#/c78c120d-121c-11e8-b983-1df4d428e0df/build",
+	"BackendProjectCreationTime": "2018-02-15T06:52:25.254Z",
+	"BackendProjectLastUpdatedTime": "2018-02-15T07:14:59.001Z"
+}

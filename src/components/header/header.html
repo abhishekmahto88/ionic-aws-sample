@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar color="dblue">
+    <ion-row>
+      <ion-col align-self-center text-left col-4>
+          <button id="menuButton" class="no-back-color icon-button menu-icon" no-padding icon-only>
+              <ion-icon no-padding name="menu"></ion-icon>
+          </button>
+      </ion-col>
+      <ion-col col-4 text-center id="goToHome" (click)="goToHome()">
+        <img src="assets/img/smaller-8.png" />
+      </ion-col>
+      <ion-col align-self-center text-right col-4>
+        <!-- <button class="no-back-color no-margin-horiz place-inline icon-button" no-padding icon-only>
+          <ion-icon no-padding name="cart"><ion-badge class="cart-count" no-padding item-end>4</ion-badge></ion-icon>
+        </button> -->
+        <button  id="searchBtn"class="no-back-color no-margin-horiz place-inline icon-button" no-padding icon-only>
+          <ion-icon no-padding name="search"></ion-icon>
+        </button>
+        <button id="contactBtn" class="no-back-color no-margin-horiz place-inline icon-button"  no-padding icon-only>
+          <ion-icon no-padding name="contact"></ion-icon>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-navbar>
+</ion-header>

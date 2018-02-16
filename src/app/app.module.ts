@@ -21,6 +21,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { DynamoDB } from '../providers/aws.dynamodb';
 
+import { DashboardPage } from '../pages/dashboard/dashboard';
 import Amplify from 'aws-amplify';
 const aws_exports = require('../aws-exports').default;
 
@@ -38,7 +39,8 @@ Amplify.configure(aws_exports);
     AccountPage,
     TabsPage,
     TasksPage,
-    TasksCreatePage
+    TasksCreatePage,
+    DashboardPage
   ],
   imports: [
     BrowserModule,
@@ -56,7 +58,8 @@ Amplify.configure(aws_exports);
     AccountPage,
     TabsPage,
     TasksPage,
-    TasksCreatePage
+    TasksCreatePage,
+    DashboardPage
   ],
   providers: [
     StatusBar,

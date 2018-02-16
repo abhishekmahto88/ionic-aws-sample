@@ -1,10 +1,111 @@
-page-login {
-  .logo {
-    padding: 20px 0px 0px 0px;
-    text-align: center;
+// page-login {
+//   .logo {
+//     padding: 20px 0px 0px 0px;
+//     text-align: center;
 
-    img {
-      max-width: 150px;
-    }
+//     img {
+//       max-width: 150px;
+//     }
+//   }
+// }
+
+page-login {
+
+  .content {
+    background: linear-gradient(#003D5E, #003B76);
   }
+  .scroll-content{overflow: hidden; padding-bottom: 0 !important;}
+  .slide-image {
+    max-height: 40%;
+    max-width: 60%;
+    margin:  15% auto 5%;
+  }
+  .ion-text{
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  ion-input{
+    // background-color: #21507E;
+    display: block;
+    color: #FFFFFF;
+    margin:0 auto 5px;
+  }
+  ion-label{
+    color: #98878B;
+  }
+  ion-item, ion-item.item-md, ion-item.item-ios,ion-item.item-wp{
+    background: transparent;
+    border-top: none !important;
+    padding-left: 0;
+  }
+  ion-input:focus {
+    padding-top: 0;
+   transform: translate3d(0,0,0);
+   -webkit-transform: translate3d(0,0,0);
+   outline: none !important;
+  }
+  ion-input.ng-touched{
+    border-bottom: none;
+  }
+  input.text-input-wp{
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  ion-input.input-wp{
+    border-bottom: 1px solid #dedede;
+    padding-top: 11px;
+  }
+  // button.login {
+  //   margin-top: 25px;
+  //   background-color: white;
+  //   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  //   color: #333;
+
+  //   &.activated {
+  //     background-color: rgb(220, 220, 220);
+  //   }
+  // }
+  button.btnLogin {
+    border-radius: 50%;
+    // height: 30px;
+    display: block;
+    // max-width: 37px !important;
+    height: 50px;
+    width: 50px;
+    margin: 25px auto;
+}
+button ion-icon{
+  padding-left: 4px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-top: 1.3px;
+}
+button.button-wp ion-icon{
+  padding-left: 8px;
+}
+ button.button-wp {
+  padding-left: 9px;
+}
+
+.fgt-pwd-txt{
+  margin: 5% auto;
+  color: #727272;
+}
+ion-label[floating] {
+  font-size: 13px;
+}
+a{
+  color: #0193e6;
+}
+input.text-input.text-input-wp {
+  padding: 0;
+  margin: 0;
+}
+//.list-wp .item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child, .list-wp .item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child
+.list-md .item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child, .list-md .item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus):last-child
+{
+  border-color:  #dedede;
+  box-shadow: none;
+}
 }
